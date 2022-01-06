@@ -49,6 +49,8 @@ Rounded edges
 
 ## Components
 
+### Nav Bar?
+
 ### Hero 
 - background: person with plants
 - page title: Plant Life
@@ -77,10 +79,7 @@ Rounded edges
 - House Plants $35/ month
 - Garden Plants $25/ month
 - Native Plants $28/ month
-### -Photo Gallery
-- photos of plants in houses, outdoor plants, gardens, plant boxes
 ### -Testimonials
-- include customer photos
 - Beautiful and Healthy! I've tried other plant subscriptions before... Nothing beats the quality of Plant Life's plants! - Jane Doe
 - I never thought I could garden, but Plant Life's instruction cards make it so easy! Now I have a garden that produces fresh veggies for my family all year! - James LastName
 - Wow! I've never seen another service that cares about local plants. Thanks to Plant Life, my front yard is filled with beautiful native plants that the humming birds LOVE! - Tommy
@@ -98,3 +97,16 @@ Rounded edges
   - nursery chain 2
   - nursery chain 3
   - and more!
+
+<hr/>
+
+## Desktop Wireframe
+<img src="img/desktop.png" alt="image of initial desktop site wire frame"/>
+
+<hr/> <hr/>
+
+## License
+MIT
+
+## Contact
+Chynna Lew
