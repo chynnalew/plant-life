@@ -13,6 +13,10 @@
 ## Description
 This site is the splash page for a fictional company I created to showcase my UX design, responsive web-design, and UI skills. 
 
+## Setup and Instructions
+* download or clone [this repository](https://github.com/chynnalew/plant-life) to your local machine
+* open the index.html file in your local browser
+
 <hr/>
 <hr/>
 
@@ -48,8 +52,6 @@ Rounded edges
 <hr/>
 
 ## Components
-
-### Nav Bar?
 
 ### Hero 
 - background: person with plants
