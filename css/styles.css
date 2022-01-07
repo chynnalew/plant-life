@@ -35,9 +35,44 @@ Whitespace:
   box-sizing: border-box;
 }
 
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+/* HERO */
+.hero{
+  max-width: 130rem;
+
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.781), transparent), url("../img/landscape-plants.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:right;
+  padding: 8rem;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-text{
+  font-family: 'Caveat', cursive;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: .95;
+  color: #285943;
+  margin-bottom: 1.6rem;
+}
+
+.title-sub {
+  font-size: 1.8rem;
+  line-height: 2.75rem;
+  margin-bottom: 2.4rem;
 }
