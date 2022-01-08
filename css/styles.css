@@ -72,9 +72,13 @@ body {
 }
 
 .title-sub {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.75rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.hero-buttons{
+  margin-bottom:4.8rem;
 }
 
 .button, .button:visited {
@@ -83,10 +87,10 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   padding: 1.2rem 1.6rem;
-  margin:.8rem;
+  margin-right:.8rem;
   text-align: center;
   background-color: #FC9E4F;
-  border-radius: 8rem;
+  border-radius: 1.5rem;
   min-width: 16rem;
   border: .2rem rgba(255, 255, 255, 0.616) solid;
 }
@@ -96,4 +100,23 @@ a {
 
 .button:hover{
   box-shadow: 0 0 1rem #f8a25c
+}
+
+.pics{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.profile-photo{
+  display: flex;
+  height:4.8rem;
+  border-radius: 50%;
+  margin-right: -2.4rem;
+  border: 1px white solid;
+}
+
+.customer-text{
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
 }
