@@ -45,6 +45,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  max-width: 210rem;
+  margin:auto;
 }
 /* REUSEABLE STYLES */
 
