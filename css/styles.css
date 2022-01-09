@@ -70,18 +70,18 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 130rem;
   margin: auto;
-  padding: 3.2rem 4.8rem;
+  padding: 4.8rem 3.2rem;
 }
 
 .section-title{
   font-family: 'Caveat', cursive;
   font-size: 5.2rem;
   font-weight: 700;
-  line-height: .95;
+  line-height: 1;
   color: #285943;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
 }
 
 /* HERO */
@@ -99,28 +99,29 @@ body {
 }
 
 .title-text{
+  text-indent: 1.8rem;
   font-family: 'Caveat', cursive;
-  font-size: 7.4rem;
+  font-size: 8.2rem;
   font-weight: 700;
-  line-height: .95;
+  line-height: .8;
   color: #285943;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .title-sub {
   font-size: 2.4rem;
-  line-height: 2.75rem;
-  margin-bottom: 3.2rem;
+  line-height: 3rem;
+  margin-bottom: 2.4rem;
 }
 
 .hero-buttons{
-  margin-bottom:4.8rem;
+  margin-bottom:3.2rem;
 }
 
 .button, .button:visited {
   text-decoration:none;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   padding: 1.2rem 1.6rem;
   margin-right:.8rem;
@@ -153,10 +154,22 @@ a {
 
 .customer-text{
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-left: 1.2rem;
 }
 
 /* WHO ARE WE */
 
+.who-img{
+  width:100%;
+  border-radius: 20px;
+}
 
+.who-text{
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    margin-left: 2.4rem;
+}
+.who-text  p {
+  padding:1.2rem 0;
+}
