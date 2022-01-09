@@ -45,24 +45,37 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  max-width:130rem;
-  margin: auto;
 }
+/* REUSEABLE STYLES */
 
-/* HERO */
-.hero{
-  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.781), transparent), url("../img/landscape-plants.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:right;
-  padding: 8rem;
-}
-.hero-grid {
+.grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
 }
 
-.title-text{
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-1-2-col{
+  grid-template-columns: 1fr 2fr
+}
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+  padding: 3.2rem 4.8rem;
+}
+
+.section-title{
   font-family: 'Caveat', cursive;
   font-size: 5.2rem;
   font-weight: 700;
@@ -71,8 +84,31 @@ body {
   margin-bottom: 1.6rem;
 }
 
+/* HERO */
+.hero-wrap{
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.781), transparent), url("../img/landscape-plants.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:right;
+  margin-bottom: 1.6rem;
+}
+.hero{
+  max-width: 130rem;
+  margin: auto;
+  padding: 6.4rem 3.2rem ;
+}
+
+.title-text{
+  font-family: 'Caveat', cursive;
+  font-size: 7.4rem;
+  font-weight: 700;
+  line-height: .95;
+  color: #285943;
+  margin-bottom: 1.6rem;
+}
+
 .title-sub {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   line-height: 2.75rem;
   margin-bottom: 3.2rem;
 }
@@ -120,3 +156,7 @@ a {
   font-size: 1.2rem;
   margin-left: 1.2rem;
 }
+
+/* WHO ARE WE */
+
+
