@@ -13,6 +13,7 @@ Font Sizes, px
 
   -Line Heights
     default: 1
+    1.8rem = 3.2rem height
 
 Colors:
   small font color: #555
@@ -73,7 +74,32 @@ body {
 .container {
   max-width: 130rem;
   margin: auto;
-  padding: 4.8rem 3.2rem;
+  padding: 4.8rem 3.2rem 2.4rem 3.2rem;
+}
+
+.card{
+  border: 2px grey solid;
+  border-radius: 20px;
+  margin: 1.8rem 3.2rem;
+  background-color: white;
+  box-shadow: #88aa7fa6 3px 3px 5px;
+}
+.card-header{
+  background-color: #FC9E4F;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+  border-radius: 18px 18px 0 0;
+  font-family: 'Caveat', cursive;
+  font-size: 3.2rem;
+}
+.card-text {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  line-height: 3rem
+}
+
+.float{
+  overflow: auto;
 }
 
 .section-title{
@@ -174,4 +200,9 @@ a {
 }
 .who-text  p {
   padding:1rem 0;
+}
+
+/* WHY CHOOSE US */
+.why{
+  background-color: #F2FEEF
 }
