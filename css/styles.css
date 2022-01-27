@@ -77,12 +77,6 @@ body {
   grid-template-columns: 2fr 4fr 1fr;
 }
 
-.container {
-  max-width: 130rem;
-  margin: auto;
-  padding: 4.8rem 3.2rem 2.4rem 3.2rem;
-}
-
 .card{
   /* border: 2px rgb(128, 128, 128) solid; */
   border-radius: 20px;
@@ -127,11 +121,7 @@ body {
   background-position:right;
   margin-bottom: 1.6rem;
 }
-.hero{
-  max-width: 130rem;
-  margin: auto;
-  padding: 6.4rem 3.2rem ;
-}
+
 .title-text{
   text-indent: 1.8rem;
   font-family: 'Caveat', cursive;
@@ -148,9 +138,6 @@ body {
   margin-bottom: 2.4rem;
 }
 
-.hero-buttons{
-  margin-bottom:3.2rem;
-}
 .button, .button:visited {
   text-decoration:none;
   color: #fff;
@@ -164,11 +151,10 @@ body {
   min-width: 16rem;
   border: .2rem rgba(255, 255, 255, 0.616) solid;
 }
-a {
-  display:inline-block
-}
+
 .button:hover{
-  box-shadow: 0 0 1rem #f8a25c
+  box-shadow: 0 0 1rem #f8a25c;
+  color: white
 }
 .pics{
   display: flex;
@@ -189,18 +175,6 @@ a {
 }
 
 /* WHO ARE WE */
-.who-left{
-  float:left;
-  width:25%;
-}
-.who-right{
-  float: left;
-  width: 75%;
-}
-.who-img{
-  width:100%;
-  border-radius: 20px;
-}
 .who-text{
     font-size: 1.8rem;
     line-height: 3.2rem;
