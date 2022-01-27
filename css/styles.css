@@ -49,6 +49,29 @@ body {
   max-width: 210rem;
   margin:auto;
 }
+
+.card-img-top {
+  height:250px
+}
+#easeOfCare {
+  background-image: url("../img/watering-can.jpeg");
+}
+#sustainability {
+  background-image: url("../img/windmill.jpeg")
+}
+#flexibility{
+  background-image: url("../img/handshake.jpeg")
+}
+.cardImage {
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: white;
+  text-shadow: 0 0 10px black, 0 0 15px black;
+  border-radius: 20px 20px 0 0 
+}
 /* REUSEABLE STYLES */
 
 .grid{
