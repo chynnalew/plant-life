@@ -35,12 +35,10 @@ Whitespace:
   margin: 0;
   box-sizing: border-box;
 }
-
 html {
   /* 1rem = 10px */
   font-size: 62.5%;
 }
-
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1;

@@ -9,6 +9,7 @@
 ## Technologies used
 * HTML
 * CSS
+* Bootstrap 5
 
 ## Description
 This site is the splash page for a fictional company I created to showcase my UX design, responsive web-design, and UI skills. 
