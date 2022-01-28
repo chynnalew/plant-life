@@ -70,33 +70,6 @@ body {
   text-shadow: 0 0 10px black, 0 0 15px black;
   border-radius: 20px 20px 0 0 
 }
-/* REUSEABLE STYLES */
-
-.grid{
-  display: grid;
-  gap: 1.6rem;
-}
-.grid-2-col {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3-col {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-4-col {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.grid-1-2-col{
-  grid-template-columns: 1fr 2fr
-}
-.grid-1-4-2-col{
-  grid-template-columns: 1fr 4fr 2fr;
-}
-.grid-2-4-1-col{
-  grid-template-columns: 2fr 4fr 1fr;
-}
 
 .card{
   /* border: 2px rgb(128, 128, 128) solid; */
@@ -211,19 +184,6 @@ body {
 }
 
 /*How it works*/
-.how-title{
-  text-align: center;
-}
-.how-content{
-  padding: 1.6rem 6.4rem;
-  margin: auto;
-}
-.how-grid-element{
-  padding-bottom: 3.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .how-number{
   background-color: #FC9E4F;
   color:#fff;
