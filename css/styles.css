@@ -48,6 +48,11 @@ body {
   margin:auto;
 }
 
+.main-font {
+  font-family: 'Caveat', cursive;
+  color: #285943;
+}
+
 .card-img-top {
   height:250px
 }
